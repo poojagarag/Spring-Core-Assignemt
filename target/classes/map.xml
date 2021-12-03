@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+
+<bean class="que3.Question" id="ans2">
+
+<property value="3" name="questionId"/>
+
+<property value=" In which year you are?" name="question"/>
+
+
+<property name="answers">
+
+
+<map>
+
+<entry value="Pooja Garag" key="2021"/>
+
+<entry value="Asha Ratnakar" key="2020"/>
+
+</map>
+
+</property>
+
+</bean>
+
+</beans>
